@@ -9,14 +9,8 @@ export default defineConfig({
 })
 `;
 export const importCss = `@import "tailwindcss"`;
-export const testCss = `const App = () => {
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline"> Hello world!</h1>
-    </>
-  );
-};
-export default App;`;
+export const testCss = `<h1 className="text-3xl text-red-600 h-screen flex items-center justify-center"> Hello world!</h1>
+`;
 
 /* ---------------------------------- fonts --------------------------------- */
 export const roboto = `@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
