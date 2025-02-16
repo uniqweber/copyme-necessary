@@ -2,7 +2,7 @@
 export const folderStructure = `cd src
 rm -f App.css index.css
 rm -rf assets
-mkdir -p assets/css assets/icons assets/images components/shared components/UI hooks context pages routes utils/data 
+mkdir -p app features assets/css assets/icons assets/images components/shared components/UI hooks context pages routes utils/data 
 touch routes/routes.js pages/Home.jsx pages/About.jsx utils/data/navData.js utils/constants.js utils/helper.js .env assets/css/index.css components/shared/Navbar.jsx components/shared/Footer.jsx components/shared/Layout.jsx`;
 
 export const installRouter = `npm install react-router
@@ -71,7 +71,7 @@ export const setupRouteJs = `export const routes = [
 export const withoutRouterFolderStructure = `cd src
 rm -f App.css index.css
 rm -rf assets
-mkdir -p assets/css assets/icons assets/images components/shared components/UI hooks context pages utils/data
+mkdir -p app features assets/css assets/icons assets/images components/shared components/UI hooks context pages utils/data
 touch utils/data/navData.js pages/Home.jsx pages/About.jsx utils/constants.js utils/helper.js .env assets/css/index.css components/shared/Navbar.jsx components/shared/Footer.jsx components/shared/Layout.jsx`;
 
 export const installDependencies = `npm install react-icons --save`;
