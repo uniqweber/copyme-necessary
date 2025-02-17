@@ -6,7 +6,8 @@ mkdir -p app features assets/css assets/icons assets/images components/shared co
 touch routes/routes.js pages/Home.jsx pages/About.jsx utils/data/navData.js utils/constants.js utils/helper.js .env assets/css/index.css components/shared/Navbar.jsx components/shared/Footer.jsx components/shared/Layout.jsx`;
 
 export const installRouter = `npm install react-router
-npm install react-icons --save
+npm install react-icons --save 
+npm install @reduxjs/toolkit react-redux
 `;
 export const setupMainJsx = `import "./assets/css/index.css";
 import App from "./App.jsx";
